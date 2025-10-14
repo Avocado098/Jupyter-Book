@@ -1,0 +1,30 @@
+# Book settings 
+
+# Book settings 
+title: "My Portfolio" 
+author: "Rachel Jasmine Canaman" 
+logo: C:\Users\User\JupyterBook\api.svg
+
+# Execution settings
+execute:
+  execute_notebooks: force   # re-run all notebooks on each build
+
+# PDF build settings
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# References (optional, only if you use citations)
+bibtex_bibfiles:
+  - references.bib
+
+# Repository settings
+repository:
+  url: https://github.com/Avocado098/JupyterBook.git # replace with your GitHub repo link
+  path_to_book: .   # use "." since your book files are in the repo root
+  branch: main      # if your repo uses "main" instead of "master", fix this
+
+# HTML settings
+html:
+  use_issues_button: true
+  use_repository_button: true
