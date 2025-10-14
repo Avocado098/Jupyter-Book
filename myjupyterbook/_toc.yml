@@ -7,14 +7,14 @@ chapters:
   - file: Portfolio/Portfolio
     title: Portfolio
     sections:
-      - file: Portfolio/LabTask/LabTask
+      - file: Portfolio/LaboratoryTasks/LaboratoryTasks
         title: Lab Tasks
         sections:
-          - file: Portfolio/LabTask/Laboratory_Task_2
-          - file: Portfolio/LabTask/Laboratory_Task_3
-          - file: Portfolio/LabTask/Laboratory_Task_4
-          - file: Portfolio/LabTask/Laboratory_Task_5
-          - file: Portfolio/LabTask/Laboratory_Task_6
+          - file: Portfolio/LaboratoryTasks/Laboratory_Task_2
+          - file: Portfolio/LaboratoryTasks/Laboratory_Task_3
+          - file: Portfolio/LaboratoryTasks/Laboratory_Task_4
+          - file: Portfolio/LaboratoryTasks/Laboratory_Task_5
+          - file: Portfolio/LaboratoryTasks/Laboratory_Task_6
 
       - file: Portfolio/Project/Project
         title: Projects
