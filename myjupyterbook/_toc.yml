@@ -7,7 +7,7 @@ chapters:
   - file: Portfolio/Portfolio
     title: Portfolio
     sections:
-      - file: Portfolio/LaboratoryTasks/Laboratory_Tasks
+      - file: Portfolio/LaboratoryTasks/LaboratoryTasks
         title: Lab Tasks
         sections:
           - file: Portfolio/LaboratoryTasks/Laboratory_Task_2
@@ -24,4 +24,4 @@ chapters:
       - file: Portfolio/Assignment/Assignment
         title: Assignments
         sections:
-          - file: Portfolio/Assignment/Reaction Paper
+          - file: Portfolio/Assignment/Reaction_Paper
