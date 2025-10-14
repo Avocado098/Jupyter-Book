@@ -3,7 +3,7 @@
 # Book settings 
 title: "My Portfolio" 
 author: "Rachel Jasmine Canaman" 
-logo: C:\Users\User\JupyterBook\api.svg
+logo: C:\Users\User\Jupyter-Book\myjupyterbook\Image\api.svg
 
 # Execution settings
 execute:
@@ -20,7 +20,7 @@ bibtex_bibfiles:
 
 # Repository settings
 repository:
-  url: https://github.com/Avocado098/JupyterBook.git # replace with your GitHub repo link
+  url: https://github.com/Avocado098/Jupyter-Book.git # replace with your GitHub repo link
   path_to_book: .   # use "." since your book files are in the repo root
   branch: main      # if your repo uses "main" instead of "master", fix this
 
