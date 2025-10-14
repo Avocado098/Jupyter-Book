@@ -8,7 +8,7 @@ chapters:
     title: Portfolio
     sections:
       - file: Portfolio/LaboratoryTasks/LaboratoryTasks
-        title: Lab Tasks
+        title: Laboratory Tasks
         sections:
           - file: Portfolio/LaboratoryTasks/Laboratory_Task_2
           - file: Portfolio/LaboratoryTasks/Laboratory_Task_3

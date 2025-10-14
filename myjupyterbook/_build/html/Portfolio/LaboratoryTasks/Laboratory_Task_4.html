@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>&lt;no title&gt; &#8212; My Portfolio</title>
+    <title>Laboratory Task 4 &#8212; My Portfolio</title>
   
   
   
@@ -61,6 +61,8 @@
     <link rel="author" title="About these documents" href="../../about.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Laboratory Task 5" href="Laboratory_Task_5.html" />
+    <link rel="prev" title="Laboratory Task 3" href="Laboratory_Task_3.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -123,8 +125,6 @@
       
       
       
-        
-      
       <div class="bd-sidebar-primary bd-sidebar">
         
 
@@ -180,17 +180,25 @@
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../about.html">👩‍💻 About Me</a></li>
 
 
-<li class="toctree-l1 has-children"><a class="reference internal" href="../Portfolio.html">Portfolio</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="../Portfolio.html">Portfolio</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="LaboratoryTasks.html">Lab Tasks</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="Laboratory_Task_2.html">Laboratory Task 2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Laboratory_Task_3.html">Laboratory Task 3</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Laboratory Task 4</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Laboratory_Task_5.html">Laboratory Task 5</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Laboratory_Task_6.html">Laboratory Task 6</a></li>
+</ul>
+</details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../Project/Project.html">Projects</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../Project/Autoencoder.html">Autoencoder Mini Case Study</a></li>
 </ul>
 </details></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../Assignment/Assignment.html">Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="../Assignment/Reaction%20Paper.html">Reaction Paper</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../Assignment/Reaction_Paper.html">Reaction Paper</a></li>
 </ul>
 </details></li>
 </ul>
@@ -367,9 +375,7 @@ document.write(`
   </button>
 `);
 </script>
-<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</button>
+
 </div></div>
       
     </div>
@@ -380,19 +386,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>Laboratory Task 4</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-            </nav>
         </div>
     </div>
 </div>
@@ -404,9 +402,10 @@ document.write(`
                   
   <p>Name: <strong>Rachel Jasmine Canaman</strong> <br>
 Section: <strong>DS4A</strong></p>
-<h2 align="center"><b>Laboratory Task 4</b></h2><div style="text-align: center;">
-    <img src="image3.png" alt="A centered image" style="display: block; margin: 0 auto;">
-</div><p><strong>Objective:</strong><br />
+<section class="tex2jax_ignore mathjax_ignore" id="laboratory-task-4">
+<h1>Laboratory Task 4<a class="headerlink" href="#laboratory-task-4" title="Link to this heading">#</a></h1>
+<p><img alt="Result Image" src="../../_images/image3.png" /></p>
+<p><strong>Objective:</strong><br />
 Train a linear regression model in PyTorch using a regression dataset with the following parameters</p>
 <p><strong>Step 1: Import Libraries</strong></p>
 <div class="cell docutils container">
@@ -529,6 +528,7 @@ Train a linear regression model in PyTorch using a regression dataset with the f
 </div>
 <p><strong>Conclusion</strong></p>
 <p>The model successfully learned the linear relationship between input and target values. After 1000 epochs, the final MSE loss was relatively low, indicating that the model’s predictions are close to the target values. This demonstrates that PyTorch can effectively model simple regression tasks using neural networks.</p>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -560,27 +560,30 @@ Train a linear regression model in PyTorch using a regression dataset with the f
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="Laboratory_Task_3.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Laboratory Task 3</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="Laboratory_Task_5.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Laboratory Task 5</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
             </div>
             
             
-              
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="simple visible nav section-nav flex-column">
-</ul>
-
-  </nav></div>
-
-</div></div>
               
             
           </div>
