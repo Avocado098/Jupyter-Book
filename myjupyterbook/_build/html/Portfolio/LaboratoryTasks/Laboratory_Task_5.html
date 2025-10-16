@@ -410,6 +410,7 @@ DS4A</p>
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">torch</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">random</span>
 </pre></div>
 </div>
 </div>
@@ -541,8 +542,8 @@ Think about what shape it should have to permit matrix multiplication.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tensor([[4, 4, 3],
-        [4, 2, 3]])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tensor([[4, 4, 0],
+        [1, 2, 3]])
 </pre></div>
 </div>
 </div>
@@ -556,9 +557,9 @@ Think about what shape it should have to permit matrix multiplication.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tensor([[28, 20, 21],
-        [24, 16, 18],
-        [20, 18, 15]])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>tensor([[16, 20, 12],
+        [12, 16, 12],
+        [17, 18,  3]])
 </pre></div>
 </div>
 </div>
