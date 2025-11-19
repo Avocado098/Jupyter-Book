@@ -25,4 +25,4 @@ chapters:
         title: Assignments
         sections:
           - file: Portfolio/Assignment/Reaction_Paper
-          - file: Portfolio/Assignment/Blogpost
+          - file: Portfolio/Assignment/Blogpost.ipynb
